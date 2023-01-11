@@ -1,0 +1,35 @@
+.container {
+  box-shadow: 0 0 3px 1px rgba(221, 221, 221, 1);
+  background-color: white;
+  flex-direction: column;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.container:hover {
+  transform: scale(1.05);
+  transition: 1.2s;
+}
+
+.buttonDelete {
+  align-self: flex-end;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 5px;
+}
+.title {
+  text-align: center;
+  margin-top: 0;
+}
+.button {
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+}

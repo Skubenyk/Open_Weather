@@ -1,0 +1,35 @@
+.container {
+  box-shadow: 0 0 3px 1px rgba(221, 221, 221, 1);
+  background-color: white;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 700px;
+  color: black;
+  padding: 30px;
+  display: flex;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    transition: 1.2s;
+    color: brown;
+  }
+}
+.country,
+.temp,
+.wind,
+.visibility,
+.tempFeels,
+.tempMax,
+.tempMin,
+.seaLevel,
+.gust,
+.sunrise,
+.sunset,
+.humidity {
+  margin-bottom: 20px;
+}
