@@ -32,7 +32,7 @@ const App = () => {
         const initialValue = JSON.parse(saved);
         return initialValue;
       }
-      return null;
+      return [];
     }
   );
   const [loading, setLoading] = useState(false);
